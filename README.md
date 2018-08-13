@@ -22,9 +22,9 @@ The books closest to the 3rd Harry Potter Book in the series were other Harry Po
 
 ![alt text](Images/HarryPotterSimiliarity.JPG)
 
-Of course, there are 40,886 other books to evaluate, but evaluating all those books would be very time-consuming. A way to evaluate a large number of books is are TSNE visualizations, which maps the embeddings into a 2D or 3D spaces where embeddings that are most similar to each other are plottings close to each other in the visualization. 
+Of course, there are 40,886 other books to evaluate, but evaluating all those books would be very time-consuming. A way to evaluate a large number of books  are TSNE visualizations, which maps the embeddings into a 2D or 3D space where embeddings that are most similar to each other are plotted close to each other (more elegantly explained here https://www.youtube.com/watch?v=p3wFE85dAyY ). 
 
-I performed a TSNE of the most occurring 3000 books for both the input embeddings and the softmax embeddings. For both sets of embeddings, the maps did not really make much sense to me. (you probably have to download these, open them up, and zoom in to read the maps)
+I performed a TSNE of the most occurring 2770 books for both the input embeddings and the softmax embeddings. For both sets of embeddings, the maps did not really make much sense to me. (you probably have to download these, open them up, and zoom in to read the maps)
 
 Input embeddings TSNE
 
