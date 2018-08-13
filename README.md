@@ -2,9 +2,9 @@
 
 Recommender system built from BookCrossings data
 
-This is my attempt at making a book recommender from BookCrossings dataset (found here http://www2.informatik.uni-freiburg.de/~cziegler/BX/) using a word2vec-based model; embeddings are trained to represent each book. 
+This is my attempt at making a book recommender from the BookCrossings dataset (found here http://www2.informatik.uni-freiburg.de/~cziegler/BX/) using a word2vec-based model; embeddings are trained to represent each book. 
 
-Each data point consists of a book (title and author), a rating given by a user, and the ID of the user. Data points are grouped by user. In word2vec, the 'neighbors' of any particular word are words that appear in a certain proximity of that word in a sentence (more elegantly explained here https://www.youtube.com/watch?v=xMwx2A_o5r4 ). In training embeddings to represent books, the 'neighbors' for any particular book of a data point are all other books rated by the same user. 
+Each data point consists of a book (title and author), a rating given by a user, and the ID of the user who gave that rating. Data points are grouped by user. In word2vec, the 'neighbors' of any particular word are words that appear in a certain proximity of that word in a sentence (more elegantly explained here https://www.youtube.com/watch?v=xMwx2A_o5r4 ). In training embeddings to represent books, the 'neighbors' for any particular book of a data point are all other books rated by the same user. 
 
 # Results
 
