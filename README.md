@@ -5,7 +5,7 @@ This is my attempt at making a book reccomender from BookCrossings data set (fou
 
 Each data point consists of a book (title and author), a rating given by a user, and the ID of the user. Data points are grouped by user. In word2vec, the 'neighbors' of any particular word are words that appear in a certain proximity of that word in a sentence (more elegantly explained here https://www.youtube.com/watch?v=xMwx2A_o5r4 ). In training embeddings to represent books, the 'neighbors' for any particular book of a data point are all other books rated by the same user. 
 
-#Results
+# Results
 
 This attempt was not very successful to me as the reccomendations generated did not seem robust to me, but I am glad I attempted this project as it gave me deeper insight into training embeddings. 
 
@@ -31,7 +31,7 @@ I am glad I attempted to make a reccomender from this data set though. This gave
 
 Again, if you would like to see a successful application of Book Embeddings, please see my other project https://github.com/Santosh-Gupta/Book2Vec . 
 
-#Methods
+# Methods
 
 The BookCrossingsTraining.ipynb notebook explores and filters the raw data. All ratings below a '6' are removed, since we only want to group books where the reader had an enjoyable experience (since the the embeddings will be used for reccomendation). I would prefer to filter ratings below a 7 or 8 but due to the low volume of data, I tried to preverse as many data points as possible. All books and users that appear less than 2 times are also removed. Again, I would prefer to having a higher filter but I was trying to perserve as many data points as possible. 
 
