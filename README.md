@@ -20,13 +20,15 @@ There are some subjective ways of evaluating the embeddings. For each book, you 
 
 The books closest to the 3rd Harry Potter Book in the series were other Harry Potter books, which is a good sign. But outside of Calvin and Hobbes, none of those seem like good recommendations for Harry Potter. I checked the recommended books for Harry Potter and the Prisoner of Azkaban on Amazon and Goodreads, and none of those were in the recommendations. 
 
-[HARRY POTTER SIM]
+![alt text](Images/HarryPotterSimiliarity.JPG)
 
 Of course, there are 40,886 other books to evaluate, but evaluating all those books would be very time-consuming. A way to evaluate a large number of books is are TSNE visualizations, which maps the embeddings into a 2D or 3D spaces where embeddings that are most similar to each other are plottings close to each other in the visualization. 
 
 I performed a TSNE of the most occurring 3000 books for both the input embeddings and the softmax embeddings. For both sets of embeddings, the maps did not really make much sense to me. 
 
-[BOOK MAPS]
+![alt text](Images/InputEmbedding_TSNE.png)
+
+![alt text](Images/SoftMax_TSNE.jpg)
 
 I am glad I attempted to make a recommender from this dataset though. This gave me a deeper intuition on the volume of data needed for robust book embeddings, since the Goodreads dataset resulted is very robust embeddings. 
 
