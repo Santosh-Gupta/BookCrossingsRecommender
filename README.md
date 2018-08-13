@@ -26,7 +26,11 @@ Of course, there are 40,886 other books to evaluate, but evaluating all those bo
 
 I performed a TSNE of the most occurring 3000 books for both the input embeddings and the softmax embeddings. For both sets of embeddings, the maps did not really make much sense to me. (you probably have to download these, open them up, and zoom in to read the maps)
 
+Input embeddings TSNE
+
 ![alt text](Images/InputEmbedding_TSNE.png)
+
+Softmax embeddings TSNE
 
 ![alt text](Images/SoftMax_TSNE.jpg)
 
