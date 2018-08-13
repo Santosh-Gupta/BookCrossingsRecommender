@@ -16,7 +16,7 @@ I performed a similar training/analysis (found here https://github.com/Santosh-G
 
 Rating the the embeddings is a bit subjective since the traditional method of having separate sets for validation and testing doesn't really apply for embeddings, since embeddings can't be produced without training. There are usually evaluation suites developed for evaluating embeddings, but none have been produced in evaluating embeddings that represent books. 
 
-There are some subjective ways of evaluating the embeddings. For each book, you can attribute a few properties. For example, for Harry Potter, you can attribute the properties of 1) Children's/Young adult 2) Fantasy. So it would be expected that the books whose embeddings are most similar to Harry Potter's book embeddings would also have these properties. However, this isn't quite the case. 
+There are some subjective ways of evaluating the embeddings. For each book, you can attribute a few properties. For example, for Harry Potter, you can attribute the properties of 1) Children's/Young adult 2) Fantasy. So it would be expected that the books whose embeddings are most similar to Harry Potter's book embeddings would also be children's/young adult and/or fantasy. However, this isn't quite the case. 
 
 The books closest to the 3rd Harry Potter Book in the series were other Harry Potter books, which is a good sign. But outside of Calvin and Hobbes, none of those seem like good recommendations for Harry Potter. I checked the recommended books for Harry Potter and the Prisoner of Azkaban on Amazon and Goodreads, and none of those were in the recommendations. 
 
