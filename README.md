@@ -42,3 +42,7 @@ Again, if you would like to see a successful application of Book Embeddings, ple
 
 The BookCrossingsTraining.ipynb notebook explores and filters the raw data. All ratings below a '6' are removed since we only want to group books where the reader had an enjoyable experience (since the embeddings will be used for recommendations). I would prefer to filter ratings below a 7 or 8 but due to the low volume of data, I tried to preserve as many data points as possible. All books and users that appear less than 2 times are also removed. Again, I would prefer to have a higher filter but I was trying to preserve as many data points as possible. 
 
+The BookCrossingsTraining.ipynb notebook creates batches of inputs and labels and then trains the embeddings using Tensorflow. 
+
+The BookCrossingsAnalyzeEmbeddings.ipynb notebook looks at the similarity for some of the embeddings to see how it works as a recommender, then looks at a TSNE map of the embeddings. 
+
